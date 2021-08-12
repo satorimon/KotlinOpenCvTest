@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuListOptionColor"
+        app:showAsAction="never"
+        android:title="Color"/>
+    <item
+        android:id="@+id/menuListOptionGray"
+        app:showAsAction="never"
+        android:title="Gray"/>
+    <item
+        android:id="@+id/menuListOptionColorBitwise"
+        app:showAsAction="never"
+        android:title="ColorBitwise"/>
+    <item
+        android:id="@+id/menuListOptionGrayBitwise"
+        app:showAsAction="never"
+        android:title="GrayBitwise"/>
+    <item
+        android:id="@+id/menuListOptionBinalization"
+        app:showAsAction="never"
+        android:title="Binalization"/>
+    <item
+        android:id="@+id/menuListOptionGaussianBlur"
+        app:showAsAction="never"
+        android:title="GaussianBlur"/>
+    <item
+        android:id="@+id/menuListOptionMedianBlur"
+        app:showAsAction="never"
+        android:title="MedianBlur"/>
+    <item
+        android:id="@+id/menuListOptionBilateralFilter"
+        app:showAsAction="never"
+        android:title="BilateralFilter"/>
+    <item
+        android:id="@+id/menuListOptionBoxFilter"
+        app:showAsAction="never"
+        android:title="BoxFilter"/>
+
+</menu>
